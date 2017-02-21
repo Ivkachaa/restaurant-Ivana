@@ -2,7 +2,9 @@
     position:relative;
     top: -17px;
 }
-
+a:focus{
+    outline: none;
+}
 
 
 .navbar-header{
@@ -20,3 +22,15 @@
     right:7px;
     width: 250px;
 }
+
+.header-top p{
+    display: none;
+}
+.header-top .header-div{
+    text-align: right;
+}
+.end {
+    right:50px;
+}
+
+
