@@ -7,11 +7,15 @@
         top: 43px;
 
     }  
-    .container .social{
+    .header-top .container .social{
         display: inline-block;
     }
     .header-top p{
-        display: block;
+        display:block;
+        color: white;
+        font-size: 8px;
+        
+        
     }
     .header-top .header-div{
         float:right;

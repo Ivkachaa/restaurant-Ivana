@@ -1,3 +1,13 @@
+/*
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Playball', cursive;
+
+    font-family: 'PT Serif', serif;
+*/
+
 .navbar-brand >img{
     position:relative;
     top: -17px;
@@ -22,6 +32,9 @@ a:focus{
     right:7px;
     width: 250px;
 }
+.header-top{
+    background-color: #d25513;
+}
 
 .header-top p{
     display: none;
@@ -29,8 +42,14 @@ a:focus{
 .header-top .header-div{
     text-align: right;
 }
-.end {
-    right:50px;
+.dropdown-menu {
+    width: 100%;
+    left: -100px;
+}
+main .background{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
