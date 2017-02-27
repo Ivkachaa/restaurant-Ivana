@@ -18,7 +18,7 @@ a:focus{
 
 
 .navbar-header{
-   
+
     padding: 5px 0;
 }
 .search{
@@ -50,50 +50,52 @@ main .background{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-   
-    
+
+
 }
-.bx-wrapper .bx-pager.bx-default-pager a{
-    width:50px;
+main #carousel ul.slides  {
+    width: 50px!important;
+   
+}
+main #carousel .slides > li {
+    width:50px !important;
     height:50px;
     border-radius:50%;
-    background: url('style-img/plate-01.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    margin: 0;
+}
+.flexslider {
+    margin: 0;
+}
+main .main-slider {
     position: relative;
 }
-.bx-wrapper .bx-pager.bx-default-pager a.active,
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a:focus
-{
-   background: none;
-   
-   background: url('style-img/plate-01.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: .3;
-}
-.bx-wrapper .bx-pager-item {
-   
-    display: block;
-}
-.bx-wrapper .bx-pager {
-    text-align: center;
-    font-size: .85em;
-    font-family: Arial;
-    font-weight: bold;
-    color: #666;
-    padding-top: 20px;
+main .main-slider .car-cnt {
     position: absolute;
-    top: 40%;
-    left: 80%;
+    top: 50%;
+    right: 10%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
 }
-
-
-
-main .slider{
+main .main-slider .car-cnt .slides {
+    transform: translate3d(0px, 0, 0px) !important;
+}
+main .main-slider #carousel {
+    background: transparent;
+    border: 0;
+}
+main .main-slider #carousel  .flex-viewport {
+    overflow: auto !important;
+}
+.flex-direction-nav {
+    display: none;
+}
+main .slider {
+    position: relative;
+}
+main .flexslider .slides > li {
     position: relative;
 }
 main .text{
@@ -102,15 +104,17 @@ main .text{
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
-main .text h3{
+main .text h3 {
     font-family: 'Playball', cursive;
 }
-main .slider figure{
-   
+main .flexslider figure{
+
     width: 250px;
     margin-top: 75px;
-    margin-left: 25px;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
 
 }
