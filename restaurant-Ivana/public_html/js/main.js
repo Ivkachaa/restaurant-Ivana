@@ -35,6 +35,6 @@ $('.bxslider').bxSlider({
   slideWidth: 170,
   slideMargin: 10
 });
-
+$('.quotes').bxSlider();
 });
 

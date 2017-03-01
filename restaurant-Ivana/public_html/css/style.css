@@ -125,7 +125,7 @@ main .testimonials h1{
    font-weight: bold;
 }
 main .testimonials h6,
-main .testimonials p{
+main .testimonials{
     color: white;
      font-family: 'Source Sans Pro', sans-serif;
 }
@@ -144,4 +144,47 @@ main .testimonials img{
 }
 main .testimonials img:nth-of-type(3){
     margin-top: 5px;
+}
+span.text-uppercase {
+    position: relative;
+}
+span.text-uppercase:before,
+span.text-uppercase:after {
+    content: '';
+    width: 30px;
+    height: 6px;
+    background: url('../img/doubleLine.png');
+    position: absolute;
+    left: -45px;
+    top:5px;      
+}
+span.text-uppercase:after {
+    left: auto;
+    right: -45px;
+}
+main .testimonials .bx-wrapper {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+}
+main .testimonials .bx-controls-direction{
+    background-image: url()
+}
+main .testimonials .bx-wrapper .bx-prev,
+main .testimonials .bx-wrapper .bx-next {
+    font-size: 0;
+}
+main .testimonials .bx-wrapper .bx-prev:before,
+main .testimonials .bx-wrapper .bx-next:before {
+    content: "\f177";
+    display: block;
+    width: 30px;
+    height: 14px;
+    background: red;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 0;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
