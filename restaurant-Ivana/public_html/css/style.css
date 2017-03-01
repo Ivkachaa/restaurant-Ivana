@@ -118,3 +118,30 @@ main .flexslider figure{
     margin-left: -125px;
 
 }
+main .testimonials h1{
+   font-family: 'Playball', cursive;
+   color: white;
+   font-size: 24px;
+   font-weight: bold;
+}
+main .testimonials h6,
+main .testimonials p{
+    color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+main .testimonials p:first-of-type{
+   font-weight: bold;
+}
+/*main .testimonials a{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}*/
+main .testimonials img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+main .testimonials img:nth-of-type(3){
+    margin-top: 5px;
+}
