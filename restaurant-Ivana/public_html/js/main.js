@@ -29,12 +29,54 @@ $('#carousel').flexslider({
     sync: "#carousel"
   });
 
-$('.bxslider').bxSlider({
+$('.seance .tab-content .active .bxslider').bxSlider({
   minSlides: 3,
   maxSlides: 4,
   slideWidth: 170,
   slideMargin: 10
 });
+
+$('.seance .nav-tabs li a').click(function(e){
+   e.preventDefault();
+
+setTimeout($('.seance .active .bxslider').bxSlider({
+  minSlides: 1,
+  maxSlides: 4,
+  slideWidth: 170,
+  slideMargin: 10
+}), 1);
+
+});
 $('.quotes').bxSlider();
+
+if ($('.list-slider').length > 0) {
+
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+
+                },
+                768: {
+                    items: 3
+
+                },
+                992: {
+                    items: 6
+
+                },
+                1200: {
+                    items: 9
+
+                }
+            }
+        });
+    }
+    
 });
 

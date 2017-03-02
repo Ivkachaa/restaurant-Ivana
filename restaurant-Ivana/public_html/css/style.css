@@ -7,6 +7,9 @@
 
     font-family: 'PT Serif', serif;
 */
+.h1, h2, h3, h4, h5, h6{
+  font-family: 'Playball', cursive;  
+}
 
 .navbar-brand >img{
     position:relative;
@@ -118,6 +121,9 @@ main .flexslider figure{
     margin-left: -125px;
 
 }
+main .testimonials{
+    background-size: cover;
+}
 main .testimonials h1{
    font-family: 'Playball', cursive;
    color: white;
@@ -155,12 +161,12 @@ span.text-uppercase:after {
     height: 6px;
     background: url('../img/doubleLine.png');
     position: absolute;
-    left: -45px;
+    left: -35px;
     top:5px;      
 }
 span.text-uppercase:after {
     left: auto;
-    right: -45px;
+    right: -35px;
 }
 main .testimonials .bx-wrapper {
     background: transparent;
@@ -177,14 +183,101 @@ main .testimonials .bx-wrapper .bx-next {
 }
 main .testimonials .bx-wrapper .bx-prev:before,
 main .testimonials .bx-wrapper .bx-next:before {
-    content: "\f177";
+    content: "";
     display: block;
-    width: 30px;
-    height: 14px;
-    background: red;
+    width: 15px;
+    height: 7px;
+    
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 0;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+main .testimonials .bx-wrapper .bx-prev:before{
+    background: url('style-img/left-arrow.png');
+    margin-left: 45px;
+    
+    
+}
+main .testimonials .bx-wrapper .bx-next:before{
+    background: url('style-img/right-arrow.png');
+    margin-left: -35px;
+}
+main .offers{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+main .offers .title-one{
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    color: #24292d;
+}
+
+main .offers .dream{
+    color:#d25513;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main .offers .rody,
+main .offers .nulla{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color:#72777b;
+}
+main .offers button{
+    background-color: #d25513;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    width:90px;
+    border-radius: 30px;
+    color: white;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+main .offers .from{
+    font-family: 'Playball', cursive;
+    color:#d25513;
+    font-size: 16px;
+}
+main .offers .special{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+main .offers .special-offers img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-top: 20px;
+}
+main .services{
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main .services img{
+    margin: 10px auto;
+}
+main .services span{
+    font-weight: bold;
+}
+main .services p.text-uppercase{
+    font-weight: bold;
+     font-family: 'PT Serif', serif;
+}
+main .services .learn{
+    color: #72777b;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+main .list-slider .owl-item{
+    margin-right:-2px !important;
 }
