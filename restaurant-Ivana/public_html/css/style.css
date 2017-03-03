@@ -7,10 +7,25 @@
 
     font-family: 'PT Serif', serif;
 */
-.h1, h2, h3, h4, h5, h6{
-  font-family: 'Playball', cursive;  
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playball', cursive;  
 }
-
+section{
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.col-md-5{
+    width: 100%;
+}
+.social .fa{
+    color: white;
+}
+.social a:hover{
+    border-bottom: 2px solid white;
+}
+.navbar{
+    margin-bottom: 0px;
+}
 .navbar-brand >img{
     position:relative;
     top: -17px;
@@ -28,7 +43,7 @@ a:focus{
     position:relative;
 }
 
-.form-group{
+.form-search{
     display:none;
     position:absolute;
     top:6px;
@@ -45,10 +60,39 @@ a:focus{
 .header-top .header-div{
     text-align: right;
 }
+.header-top .social .follow{
+    color:#d25513;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.header-top .social .dropdown a,
+.header-top .social .subscribe{
+    color:white;
+    text-decoration: none;
+}
 .dropdown-menu {
     width: 100%;
     left: -100px;
+    background: #d25513;
+    color:white;
 }
+
+.dropdown-menu li a{
+    color:white;
+}
+.dropdown-menu li a:hover{
+    color:#d25513 !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #d25513;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: #d25513;
+
+} 
+<!---kraj navigacije----->
 main .background{
     background-size: cover;
     background-position: center center;
@@ -56,9 +100,22 @@ main .background{
 
 
 }
+main .welcome a{
+
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: #72777b;
+    bottom: 18px;
+    left:50%;
+    position: relative;
+    font-size: 22px;
+}
+
+
 main #carousel ul.slides  {
     width: 50px!important;
-   
+
 }
 main #carousel .slides > li {
     width:50px !important;
@@ -123,20 +180,21 @@ main .flexslider figure{
 }
 main .testimonials{
     background-size: cover;
+    padding-bottom: 50px;
 }
 main .testimonials h1{
-   font-family: 'Playball', cursive;
-   color: white;
-   font-size: 24px;
-   font-weight: bold;
+    font-family: 'Playball', cursive;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 main .testimonials h6,
 main .testimonials{
     color: white;
-     font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 main .testimonials p:first-of-type{
-   font-weight: bold;
+    font-weight: bold;
 }
 /*main .testimonials a{
     width:70px;
@@ -187,7 +245,7 @@ main .testimonials .bx-wrapper .bx-next:before {
     display: block;
     width: 15px;
     height: 7px;
-    
+
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 0;
     text-rendering: auto;
@@ -197,13 +255,14 @@ main .testimonials .bx-wrapper .bx-next:before {
 main .testimonials .bx-wrapper .bx-prev:before{
     background: url('style-img/left-arrow.png');
     margin-left: 45px;
-    
-    
+
+
 }
 main .testimonials .bx-wrapper .bx-next:before{
     background: url('style-img/right-arrow.png');
     margin-left: -35px;
 }
+
 main .offers{
     margin-top: 40px;
     margin-bottom: 30px;
@@ -227,7 +286,7 @@ main .offers .nulla{
     font-size: 12px;
     color:#72777b;
 }
-main .offers button{
+.buttons{
     background-color: #d25513;
     box-shadow: none;
     border: none;
@@ -271,7 +330,7 @@ main .services span{
 }
 main .services p.text-uppercase{
     font-weight: bold;
-     font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 main .services .learn{
     color: #72777b;
@@ -281,3 +340,106 @@ main .services .learn{
 main .list-slider .owl-item{
     margin-right:-2px !important;
 }
+main .booking span{
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 10px;
+}
+main .booking img{
+    margin:0 auto;
+    padding-top: 15PX;
+    padding-bottom: 10px;
+}
+main .booking .nets{
+    font-family: 'PT Serif', serif;
+    font-size: 14px;  
+}
+main .booking .reservation-form,
+main .booking select{
+    width: 100%;
+
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    height: 34px;
+    background-color: white;
+
+}
+main .booking .reservation{
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+main .booking button{
+    margin: 0 auto;
+}
+footer .last-one{
+    background: #d25513;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer .last-one img{
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+footer .last-one p{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer .last-one p:first-of-type{
+    font-size: 16px; 
+}
+footer .last-one p:last-of-type{
+
+    color:#edbba1;
+    font-size: 14px;
+}
+
+/*-----about page----*/
+main .about-us{
+    background-color: #64625f;
+    color: white;
+}
+main .about-us p{
+    padding-top: 7px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    opacity: .4;
+}
+main .about-us p:last-of-type{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: initial;
+}
+main .about-us span.spam-flo{
+    font-family: 'Playball', cursive;
+    font-size: 30px
+}
+span.spam-flo:before
+{
+    content: '';
+    width: 28px;
+    height: 15px;
+    background: url('../css/style-img/decoration-left.png');
+    position: absolute;
+    left: 15px;  
+    top: 140px;
+}
+span.spam-flo:after {
+    content: '';
+    width: 28px;
+    height: 15px;
+    background: url('../css/style-img/decoration-right.png');
+    position: absolute;
+    left:auto;
+    right: 15px;
+    top:140px;
+  
+}
+main .about-us img{
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
