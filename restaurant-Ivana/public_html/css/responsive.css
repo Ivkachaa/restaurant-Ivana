@@ -20,6 +20,53 @@
     .header-top .header-div{
         float:right;
     }
+    
+    /* PreciousSense */
+    .preciousSense p{
+        font-size: 21px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+    .preciousSense h2{
+        font-size: 60px;
+        font-family: 'Playball', cursive;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+    /* Tab */
+    .nav-tabs {
+        border-radius: 35px;
+    }
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+        border-radius: 35px;
+    }
+    .nav-tabs > li > a {/* Potrebno je jos aditi */
+        line-height: 120%;
+        padding: 20px 40px;
+        border-radius: 35px;
+        font-size: 20px;
+    }
+    /* /Tab */
+
+    /* Slider Four Pics */
+    .tab-pane .slick-next {
+        right: -15px;
+    }
+    .tab-pane .slick-prev::before,
+    .tab-pane .slick-next::before {
+        display: inline-block;
+    }
+    /* /Slider Four Pics */
+
+    /* /PreciousSense */
 
 }
 
