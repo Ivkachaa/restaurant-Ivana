@@ -621,11 +621,34 @@ span.spam-flo:after {
     left:auto;
     right: 15px;
     top:140px;
-  
+
 }
 main .about-us img{
     margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 10px;
 }
+main .simple-slider{
+    /*background-image: url(..css/style-img/bread.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main .item img{
+    width: 100%;
+    display: block;
+}
+main .our-history .catering{
+    position: relative;
+    margin: 0 auto;
+}
+main .our-history .good{
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+}
+
 
