@@ -8,7 +8,8 @@
     font-family: 'PT Serif', serif;
 */
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Playball', cursive;  
+    font-family: 'Playball', cursive; 
+    padding-bottom: 10px;
 }
 section{
     padding-bottom: 30px;
@@ -42,13 +43,8 @@ a:focus{
 .search{
     position:relative;
 }
-
-.form-search{
-    display:none;
-    position:absolute;
-    top:6px;
-    right:7px;
-    width: 250px;
+.search .form-group {
+    display: none;
 }
 .header-top{
     background-color: #d25513;
@@ -321,6 +317,9 @@ main .services{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+main .services figure{
+    min-height: 88px;
+}
 
 main .services img{
     margin: 10px auto;
@@ -342,7 +341,7 @@ main .list-slider .owl-item{
 }
 main .booking span{
     font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
+    
     padding-bottom: 10px;
 }
 main .booking img{
@@ -583,8 +582,7 @@ footer .last-one p:last-of-type{
 
 /*-----about page----*/
 main .about-us{
-    background-color: #64625f;
-    color: white;
+    background-size: cover;
 }
 main .about-us p{
     padding-top: 7px;
@@ -600,44 +598,54 @@ main .about-us p:last-of-type{
 }
 main .about-us span.spam-flo{
     font-family: 'Playball', cursive;
-    font-size: 30px
+    font-size: 30px;
+    color: white;
 }
+
 span.spam-flo:before
 {
     content: '';
     width: 28px;
     height: 15px;
     background: url('../css/style-img/decoration-left.png');
-    position: absolute;
-    left: 15px;  
-    top: 140px;
+    position: relative;
+    left: -10px;  
+    display: inline-block;
 }
 span.spam-flo:after {
     content: '';
     width: 28px;
     height: 15px;
     background: url('../css/style-img/decoration-right.png');
-    position: absolute;
+    position: relative;
     left:auto;
-    right: 15px;
-    top:140px;
+    right: -10px;
+    display: inline-block;
 
+}
+main .about-us p{
+    color: white;
 }
 main .about-us img{
     margin: 0 auto;
+}
+/*main .about-us img{
+    margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 10px;
-}
+}*/
+
 main .simple-slider{
     /*background-image: url(..css/style-img/bread.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-main .item img{
-    width: 100%;
-    display: block;
+main .simple-slider img{
+    margin: 0 auto;
+
 }
+
 main .our-history .catering{
     position: relative;
     margin: 0 auto;
@@ -645,10 +653,53 @@ main .our-history .catering{
 main .our-history .good{
     position: absolute;
     bottom: 25%;
-    left: 30%;
+    left: 50%;
     background-color: transparent;
     height: 120px;
     width: 120px;
+    transform: translateX(-60px);
+}
+main .our-history h2{
+    color: black;
+}
+main .our-history span{
+    font-weight: bold;
+    margin-bottom:30px;
+}
+main .our-history img:first-of-type{
+    margin: 15px auto;
+}
+
+main .our-history p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: #72777b;
+}
+span.nunc:before{
+    content:"";
+    display: block;
+    background-image: url("../css/style-img/quotesLeft.png");
+    width: 20px;
+    height: 16px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+span.nunc:after{
+    content:"";
+    display: block;
+    background-image: url("../css/style-img/quotesRight.png");
+    width: 20px;
+    height: 16px;
+    position: relative;
+    top: -10px;
+    left: auto;
+    right: -212px;
+}
+
+main .list-slider{
+    padding: 0;
+   margin-bottom: -10px;
 }
 
 
