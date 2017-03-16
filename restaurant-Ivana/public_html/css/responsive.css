@@ -67,6 +67,24 @@ main .our-history .good{
 span.nunc:after{
     left: 710px;
 }
+/*-----contact us------*/
+main .contact-us .container{
+    padding: 150px 0;
+}
+main .contact-us span{
+    font-size: 50px;
+}
+main .our-location .button div{
+    left: -55px;
+}
+main .our-location .btn{
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+
+
 }
 
 

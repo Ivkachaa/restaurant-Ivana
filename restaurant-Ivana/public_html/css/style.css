@@ -27,6 +27,10 @@ section{
 .navbar{
     margin-bottom: 0px;
 }
+
+.navbar-nav .form-group {
+    display: none;
+}
 .navbar-brand >img{
     position:relative;
     top: -17px;
@@ -42,9 +46,6 @@ a:focus{
 }
 .search{
     position:relative;
-}
-.search .form-group {
-    display: none;
 }
 .header-top{
     background-color: #d25513;
@@ -341,7 +342,7 @@ main .list-slider .owl-item{
 }
 main .booking span{
     font-weight: bold;
-    
+
     padding-bottom: 10px;
 }
 main .booking img{
@@ -699,7 +700,181 @@ span.nunc:after{
 
 main .list-slider{
     padding: 0;
-   margin-bottom: -10px;
+    margin-bottom: -10px;
+}
+/*--------contact us page------*/
+
+main .contact-us .container{
+    padding: 50px 0;
+}
+main .contact-us span{
+    font-family: 'Playball', cursive;
+    font-size: 32px;
+    color: white;
+}
+main .contact-us p:first-of-type{
+    font-weight: bold;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+}
+main .contact-us img{
+    margin: 0 auto;
+}
+main .contact-us p:last-of-type{
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color:#bbbab9;
+    margin: 40px 0;
+}
+main .contact-us-today span{
+    font-weight: bold;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+}
+main .contact-us-today img{
+    margin: 0 auto;
+    padding: 15px 0;
+}
+main .contact-us-today h5{
+    font-size: 18px;
+}
+main .contact-us-today textarea{
+    height: 150px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 2%;
+}
+main .contact-us-today .btn{
+    background-color: #d25513;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 17px;
+    font-family: 'PT Sans', sans-serif;
+}
+main .map .embed-responsive{
+    height: 150px;
+}
+main .our-location h2{
+    font-size: 30px;
+}
+main .our-location span{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+main .our-location span.text-uppercase:before,
+main .our-location span.text-uppercase:after{
+    top: 10px;
+}
+main .our-location p.text-uppercase{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 20px;
+}
+main .our-location .btn{
+    font-weight: bold;
+    font-size: 8px;
+}
+main .our-location .container article{
+    margin-left: 100px;
+
+}
+main .our-location .container article:last-of-type{
+    margin-right: 20px;
+}
+main .our-location .container .btn{
+    margin-left: 80px;
+}
+/*-------- classic menu--------*/
+main .our-menu{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .our-menu .spam-flo{
+    color: white;
+    font-size: 32px;
+    font-family: 'Playball', cursive;
+}
+main .our-menu p:first-of-type{
+    color: #d1d0cf;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+}
+main .our-menu img{
+    margin: 0 auto;
+}
+main .our-menu p:last-of-type{
+    color:#ecebeb;
+    font-size: 14px;
+    margin: 15px 0;
+}
+main .same .text-center p:first-of-type{
+    font-family: 'Playball', cursive;
+    font-size: 26px;
+}
+main .same span:first-of-type{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+main .same img{
+    margin: 0 auto;
+}
+main .appetizers .clearfix{
+    padding-top: 20px;
+}
+/*main .appetizers .name span{
+    position: relative;
+  left: 75%;
+}*/
+/*main .appetizers ul.name li:after{
+    content: " ";
+    background-image: url('../css/style-img/dots.png');
+    background-repeat: repeat-x;
+    background-color: transparent;
+    height: 15px;
+    width:50%;
+    position: absolute;
+}*/
+
+main .the-same {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .7;
+}
+main .the-same .container{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+main .the-same h2{
+    display: inline-block;
+    color: white;
+    font-size: 32px;
+}
+main .the-same img{
+    display: inline-block;
+    max-width: 70px;
+    margin-bottom: 40px;
+}
+main .the-same p{
+    color: #d1d0cf;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-
+/*--------page list-------*/
+main .list-shop img{
+    max-width: 270px;
+    max-height: 160px;
+}
