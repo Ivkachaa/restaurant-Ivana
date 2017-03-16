@@ -38,7 +38,9 @@ section{
 a:focus{
     outline: none;
 }
-
+.fa-heart{
+    color: #d25513;
+}
 
 .navbar-header{
 
@@ -823,29 +825,39 @@ main .same .text-center p:first-of-type{
     font-size: 26px;
 }
 main .same span:first-of-type{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
 }
 main .same img{
     margin: 0 auto;
 }
-main .appetizers .clearfix{
+/*main .appetizers .clearfix{
     padding-top: 20px;
+}*/
+main .name{
+    overflow-x: hidden;
 }
-/*main .appetizers .name span{
-    position: relative;
-  left: 75%;
-}*/
-/*main .appetizers ul.name li:after{
-    content: " ";
-    background-image: url('../css/style-img/dots.png');
-    background-repeat: repeat-x;
-    background-color: transparent;
-    height: 15px;
-    width:50%;
-    position: absolute;
-}*/
+main .name li:before{
+    float: left;
+    width:0;
+    color:black;
+    content:'........................................................................................................................................................................................................................................................................................'
+}
+main .name li span:first-child{
+    background: white;
+}
+main .name li span + span{
+    float: right;
+    background: white;
+}
+main .name li span + span:before{
+    content:"";
+}
+main .name li p{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 6px !important;
+}
 
 main .the-same {
     background-size: cover;
@@ -877,4 +889,11 @@ main .the-same p{
 main .list-shop img{
     max-width: 270px;
     max-height: 160px;
+}
+main .list-shop .price p{
+    display: inline-block;
+}
+
+main .price .numbers{
+    float: right;
 }

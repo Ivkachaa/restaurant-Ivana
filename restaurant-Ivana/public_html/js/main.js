@@ -182,4 +182,9 @@ if ($('.list-slider').length > 0) {
     }); }, 1);
     });
     
+     $('a.heart').click(function(e){
+             e.preventDefault();
+             $(this).find('span').toggleClass('fa-heart-o fa-heart');
+            });
+    
 });
