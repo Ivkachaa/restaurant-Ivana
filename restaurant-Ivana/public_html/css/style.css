@@ -704,6 +704,19 @@ main .list-slider{
     padding: 0;
     margin-bottom: -10px;
 }
+main .John-Sawyer{
+    position: relative;
+}
+main .John-Sawyer .mask{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /*--------contact us page------*/
 
 main .contact-us .container{
@@ -887,13 +900,130 @@ main .the-same p{
 
 /*--------page list-------*/
 main .list-shop img{
-    max-width: 270px;
-    max-height: 160px;
-}
-main .list-shop .price p{
-    display: inline-block;
+    max-width: 200px;
+    max-height: 110px;
+    border-radius: 50%;
+    margin-left: 100px;
+    padding: 10px 0;
 }
 
-main .price .numbers{
+main .list-shop .price p{
+    display: inline-block;
+    
+}
+main .list-shop article p.nine{
+       font-weight: bold;
+    padding-bottom: 30px;
+    
+    border-bottom: 2px solid #d25513;
+    width: 50px;
+    margin: 0 auto;
+
+    
+}
+main .list-shop article .btn{
+    border: 2px solid #f5f5f5;
+    color: #d25513;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+        
+}
+main .numbers{
     float: right;
 }
+
+
+
+/*------------------page-shop-----------------*/
+
+main .vertical-slider #vertical{
+    position: relative;
+    
+}
+.lSSlideOuter.vertical .lSGallery{
+    right:auto !important;
+    left: 0;
+}
+main #vertical img{
+    width: 100%;
+
+}
+main #vertical .vertical-text{
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.lSSlideOuter.vertical{
+    padding-right: 0 !important;
+    padding-left: 90px;
+}
+main .select-div .select-ctn{
+    height: 32px;
+    width: 164px;
+    padding: 0 22px 0 14px;
+    border: 1px solid #ebebeb;
+    position: relative;
+}
+main .select-div .select-ctn{
+    background-position: right center;
+    background-size: contain;
+    appearance: none;
+    
+}
+/*main .select-div .select-ctn:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 6px;
+    position: absolute;
+    background-image: url('../css/style-img/select-arrow.png');
+    top: 13px;
+    right: 14px;
+}*/
+main .order-quantity button,
+main .order-quantity input{
+    border: none;
+    box-shadow: none;
+}
+main .order-quantity{
+    border: 1px solid #ebebeb;
+    display: inline-block;
+}
+main .order-quantity input{
+    max-width: 20px !important;
+    padding: 0;
+}
+
+
+/*.my-select{
+    position: relative;
+   
+    display: inline;
+}
+.my-select ul{
+    display: none;
+}
+
+.my-select p{
+    border:1px solid #000;
+    width: 200px;
+    display: inline-block;
+}
+.my-select li{
+    display: inline-block;
+}*/
+
+main .icons {
+    display: inline-block;
+}
+ main .vertical-text .share p,
+ main .vertical-text .share ul{
+     display: inline-block;
+ }
